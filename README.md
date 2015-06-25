@@ -4,10 +4,10 @@
 
 ## Versions
 
-* Apache: 2.4.12, with dependencies:
+* Apache: 2.4.15, with dependencies:
  * zlib: 1.2.8
  * PCRE: 8.36
-* Phusion Passenger: 4.0.59
+* Phusion Passenger: 5.0.11
 * Shibboleth SP: 2.5.3, with dependencies:
  * Boost (headers): 1.52
  * Log4Shib: 1.0.9
