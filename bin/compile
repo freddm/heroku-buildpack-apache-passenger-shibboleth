@@ -3,8 +3,8 @@
 set -e
 
 cd $1
-curl -s https://s3.amazonaws.com/ims-buildpacks/cedar-14/apache-2.4.14.tar.gz       | tar xz
-curl -s https://s3.amazonaws.com/ims-buildpacks/cedar-14/passenger.tar.gz           | tar xz
+curl -s https://s3.amazonaws.com/ims-buildpacks/cedar-14/apache-2.4.15.tar.gz       | tar xz
+curl -s https://s3.amazonaws.com/ims-buildpacks/cedar-14/passenger-5.0.11.tar.gz    | tar xz
 curl -s https://s3.amazonaws.com/ims-buildpacks/cedar-14/shibboleth-sp.tar.gz       | tar xz
 echo "-----> apache-passenger-shibboleth-buildpack: Installed Apache, Passenger, and Shibboleth to $1/opt"
 
